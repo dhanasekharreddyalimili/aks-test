@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: w1sdf-config
+  namespace: namespace-workflow-1751767255192
+  labels:
+    app.kubernetes.io/name: w1sdf
+    kubernetes.azure.com/generator: devhub
+data:
